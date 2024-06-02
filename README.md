@@ -1,6 +1,6 @@
 # AWS-Production-Environment-Project
 
-The following diagram provides an overview of the resources included in this example. I created a VPC with public subnets, private subnets, and a bastion server in multiple Availability Zones. Each public subnet contains a NAT gateway and a load balancer node. The servers run in the private subnets, are launched and terminated by using an Auto Scaling group, and receive traffic from the load balancer. The servers can connect to the internet by using the NAT gateway. The servers can connect to Amazon S3 by using a gateway VPC endpoint. The bastion server provides secure access to the instances in the private subnets.
+ The following diagram provides an overview of the resources included in this example. I created a VPC with public subnets, private subnets, and a bastion server in multiple Availability Zones. Each public subnet contains a NAT gateway and a load balancer node. The servers run in the private subnets, are launched and terminated by using an Auto Scaling group, and receive traffic from the load balancer. The servers can connect to the internet by using the NAT gateway. The servers can connect to Amazon S3 by using a gateway VPC endpoint. The bastion server provides secure access to the instances in the private subnets.
 ![1699781752576](https://github.com/PoornaChaitanya/AWS-Production-Environment-Project/assets/84367538/360cee37-03fd-4ac8-95f0-b397f3df630a)
 
 ## VPC Structure
